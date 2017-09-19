@@ -1,6 +1,6 @@
 # Indices for same value
 
-Get all the indices for a value in a an array.
+Get all the indices for a value in an array.
 
 ```bash
 
