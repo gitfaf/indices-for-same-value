@@ -1,7 +1,7 @@
 const getAllIndices = require('../index').getAllIndices
 
 describe('get all indices for value in array', () => {
-    it('gets all indices for unique-valued array', () => {
+    it('gets all expected indices successfully', () => {
         const value = 2
         const array = [1, 2, 2, 2, 1, 2, 3, 4, 4, 3, 2, 1]
         const actual = getAllIndices(value, array)
@@ -10,5 +10,13 @@ describe('get all indices for value in array', () => {
         for(let i = 0; i < actual.length; i++) {
             expect(actual[i]).toBe(expected[i])
         }
+    })
+
+    it('gets empty list of indices expectedly for non-existing value in array', () => {
+        const value = 10
+        const array = [1, 2, 2, 2, 1, 2, 3, 4, 4, 3, 2, 1]
+        const actual = getAllIndices(value, array)
+        const expected = []
+        expect(actual.length).toBe(expected.length)
     })
 })

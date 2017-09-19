@@ -1,18 +1,26 @@
 {
-  "name": "indices-for-same-value",
-  "version": "3.0.0",
-  "description": "Get the indices in an array where value is equal to the given one.",
-  "main": "index.js",
-  "scripts": {
-    "test": "jasmine"
-  },
-  "keywords": [
-    "array",
-    "indices"
-  ],
-  "devDependencies": {
-      "jasmine": "*"
-  },
-  "author": "Git Faf <git.faf@gmail.com>",
-  "license": "MIT"
+    "name": "indices-for-same-value",
+    "version": "5.0.0",
+    "description": "Get the indices in an array where value is equal to the given one.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jasmine"
+    },
+    "keywords": [
+        "array",
+        "indices"
+    ],
+    "devDependencies": {
+        "jasmine": "*"
+    },
+    "author": "Git Faf <git.faf@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gitfaf/indices-for-same-value.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gitfaf/indices-for-same-value/issues"
+    },
+    "homepage": "https://github.com/gitfaf/indices-for-same-value#readme"
 }
