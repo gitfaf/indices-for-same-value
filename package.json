@@ -1,6 +1,6 @@
 {
   "name": "indices-for-same-value",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get the indices in an array where value is equal to the given one.",
   "main": "index.js",
   "scripts": {
