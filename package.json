@@ -1,0 +1,15 @@
+{
+  "name": "indices-for-same-value",
+  "version": "1.0.0",
+  "description": "Get the indices in an array where value is equal to the given one.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "indices"
+  ],
+  "author": "Git Faf <git.faf@gmail.com>",
+  "license": "MIT"
+}
