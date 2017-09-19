@@ -7,3 +7,7 @@ function getAllIndices(forValue, inArray) {
     }
     return indices
 }
+
+module.exports = {
+    getAllIndices
+}
